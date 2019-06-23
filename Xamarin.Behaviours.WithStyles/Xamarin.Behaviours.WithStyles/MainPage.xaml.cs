@@ -1,7 +1,12 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace XamarinForms.Behaviours
+namespace Xamarin.Behaviours.WithStyles
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
@@ -11,8 +16,6 @@ namespace XamarinForms.Behaviours
         public MainPage()
         {
             InitializeComponent();
-            Entry entry = FindByName("entVal") as Entry;
-            entry.Behaviors.Add(new NumericValidationBehavior());
         }
     }
 }

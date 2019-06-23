@@ -14,6 +14,7 @@
                 <local:NumericValidationBehavior/>
             </Entry.Behaviors>
         </Entry>
+        <Entry Placeholder="Enter a Syste.Double" x:Name="entVal"/>
     </StackLayout>
 
 </ContentPage>

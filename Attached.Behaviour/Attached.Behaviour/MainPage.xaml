@@ -9,5 +9,4 @@
     <StackLayout>
         <Entry Placeholder="Enter a Syste.Double" local:NumericValidationBehavior.AttachBehavior="True" />
     </StackLayout>
-
 </ContentPage>
